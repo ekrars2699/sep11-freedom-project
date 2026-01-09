@@ -13,9 +13,11 @@
 * I also used [https://phaser.io/tutorials/making-your-first-phaser-3-game/part1](https://phaser.io/tutorials/making-your-first-phaser-3-game/part1) in order to see what making a game in phaser would be like.
 * Using these tutorials I learned how phaser has a library of different assets full of images and other various things that many people use to make their own games.
 
+### 11/17/25:
+*
+### 11/24/25:
+* 
 ### X/X/XX:
-* Text
-
 
 <!--
 * Links you used today (websites, videos, etc)
