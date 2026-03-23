@@ -1,21 +1,28 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Phaser
+## Product: Puzzle Game
 
 ---
 
 ## Timeline
 
 #### MVP
-
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
-
+- Character in the game
+   - keep learning how to use phaser during mid-winter break (2/14-2/22)
+   - Make it move up, left, right, etc... by 2/28
+   - Try to find character sprites for the game in phaser by 3/1
+- Puzzles
+   - Make a stage for the character will be in by 3/14
+   - Finish first puzzle that stops the player by 3/28
+   - Finish puzzle by 4/1
+- Goal for the game
+  - Make it show the player wins by solving the puzzle by 4/11
+- Finish MVP 4/13
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- Make even more stages for the game
+- Add various sound effects for the game
 
 
 <!-- EXAMPLE
