@@ -1,8 +1,11 @@
 # Entry 3
-##### X/X/XX
+##### 2/2/26
 
-Text
+### Content
+##### Update from winter break
 
+### Future Plan
+For the future I plan on
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)

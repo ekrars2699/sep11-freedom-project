@@ -16,7 +16,7 @@
 ### 11/17/25:
 *
 ### 11/24/25:
-* 
+*
 ### X/X/XX:
 
 <!--
@@ -26,3 +26,6 @@
 * Questions you still have
 * What you're going to try next
 -->
+### 3/23/26:
+* Have some of my ideas for puzzles be in my beyond MVP instead of my MVP in order to meet the due date.
+* Trying to make my own sprites and animations
