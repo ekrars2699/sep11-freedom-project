@@ -9,21 +9,78 @@
         <link href="style.css" rel="stylesheet" type="text/css" />
         <style>
             /* CSS */
-            
+
         </style>
-        
+
         <title>Title</title>
     </head>
     <body>
         <!-- HTML -->
-        
-        
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser-arcade-physics.min.js"></script>
+
+            <h1>FP Puzzle Game</h1>
+            <h2>Instructions:</h2>
+            <p>click tiles to change which ons are yellow, if none of them are yellow then you win.</p>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- <script src="script.js"></script> -->
         <script>
             // JS
-            
-            
+            var config = {
+            type: Phaser.AUTO,
+            width: 300,
+                height: 300,
+            backgroundColor: Phaser.Display.Color.GetColor(20),
+            scene: { create }
+                            };
+            new Phaser.Game(config);
+            var a = 3;
+            var b = 80;
+            let tiles = [];
+            function create() {
+            for (let y = 0; y < a; y++) {
+                    tiles[y] = [];
+            for (let x = 0; x < a; x++) {
+            let rect = this.add.rectangle(
+                    x * b + 60,
+                    y * b + 60,60,60,Phaser.Display.Color.GetColor(255,255,0)
+            ).setInteractive();
+            rect.isOn = Math.random() > 0.5;
+            updateColor(rect);
+             rect.on('pointerdown', () => {
+                toggle(x, y);
+            });
+            tiles[y][x] = rect;
+                    }
+                }
+            }
+            function toggle(x, y) {
+                flip(x, y);
+                flip(x+1, y);
+                flip(x-1, y);
+                flip(x, y+1);
+                flip(x, y-1);
+            }
+            function flip(x, y) {
+                if (tiles[y] && tiles[y][x]) {
+                    let tile = tiles[y][x];
+                    tile.isOn = !tile.isOn;
+                    updateColor(tile);
+                }
+            }
+            function updateColor(tile) {
+                if (tile.isOn) {
+                    tile.fillColor = Phaser.Display.Color.GetColor(255, 255, 0);
+                }
+                    else {
+                    tile.fillColor = Phaser.Display.Color.GetColor(50);
+                }
+            }
+            function win(scene) {
+                let allOff = true;
+                if (allOff) {
+                    scene.add.text(90, 130, 'You Win!');
+                }
+            }
         </script>
     </body>
 </html>
