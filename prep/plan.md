@@ -21,9 +21,10 @@
 - Finish MVP 4/13
 #### Beyond MVP
 
-- Make even more stages for the game
+- Add a win screen when the player wins
+- Make more stages for the game
+- Add a timer and if they take too long then they lose
 - Add various sound effects for the game
-
 
 <!-- EXAMPLE
 
