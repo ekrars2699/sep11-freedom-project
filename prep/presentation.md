@@ -1,16 +1,16 @@
 # Presentation Plan
 
 ## Hook
-* 
+* A fun fact about puzzles and why people should attempt puzzles.
 
 ## Product
-* 
+* A link to my project. And a gif showing the beaten puzzle.
 
 ## Process
-* 
+* Show MVP first: Show the different code snippets of my MVP. Then show my Beyond MVP and code snippets of that. After showing off both, show all the problems I had first of the MVP then the Beyond.
 
 ## Conclusion
-* 
+* Takeaways: Don't overcomplicate/put as much as you can: I wanted to add a lot but I couldn't put everything such as a variety of puzzles but by simplifying it I was able to complete the project. Ask for help: I asked a couple classmates such as Jaeson who used Phaser to help me with some bugs.
 
 <!-- EXAMPLE
 
