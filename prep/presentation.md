@@ -1,7 +1,7 @@
 # Presentation Plan
 
 ## Hook
-* A fun fact about puzzles and why people should attempt puzzles.
+* Do YOU want a challenging game, Do YOU want a game that's simple but ADDICTING, well then you HAVE to play MY game.
 
 ## Product
 * A link to my project. And a gif showing the beaten puzzle.
