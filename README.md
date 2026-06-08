@@ -16,10 +16,13 @@ In my junior year I had a year long project called The Freedom Project. The Free
 ## Implications
 ##### PROS
 * A game that challenges the player to think of a strategy in order to win
+* Helps improve problem-solving skills
 * People would be able to come together in order to figure out a solution to the game
+* Simple controls so it's accessible to many different people
 ##### CONS
 * It's a simple game that doesn't have much once beaten
 * Doesn't take too long to be beaten
+* No sound effects that could engage the player
 
 
 ## Blog
